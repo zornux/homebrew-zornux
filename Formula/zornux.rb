@@ -6,28 +6,28 @@
 class Zornux < Formula
   desc "The English-readable programming language"
   homepage "https://zornux.dev"
-  version "1.0.0"
+  version "1.1.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/zornux/zornux/releases/download/v#{version}/zornux-#{version}-osx-arm64.tar.gz"
-      sha256 "f853f087c6cce072272ef6b4ccf64029ebbf1921c4fc348e7449dc4e9fc18792"
+      sha256 "f33413fe88e1f6c89a7e789e8637026aaa97c2b6f93f3bd8e461059b4f142759"
     end
     on_intel do
       url "https://github.com/zornux/zornux/releases/download/v#{version}/zornux-#{version}-osx-x64.tar.gz"
-      sha256 "115d1bcab62b2b6c78e09c5d4e24a004b016a68dedd7883cf1e9b3c1dd932002"
+      sha256 "04815161fc3ac9e27c3bf0dabc9e25799c1a75c8ffd138151a18058c8d791c05"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/zornux/zornux/releases/download/v#{version}/zornux-#{version}-linux-arm64.tar.gz"
-      sha256 "e2aec7926c828f89ae29cf4a3dca9edbc9b0755649b3a35f5a0709f7e82813d9"
+      sha256 "aa4fe02bf190cc92bcb46f683af2bb236d1b7982e132689fb94ea714bb033819"
     end
     on_intel do
       url "https://github.com/zornux/zornux/releases/download/v#{version}/zornux-#{version}-linux-x64.tar.gz"
-      sha256 "902cf5e2bd0568bd5709635cd3d7ba84811741a4a4c845faa334f3f6f0a736a7"
+      sha256 "f95e58e63243c379931eb772b123aedd9d5680bce57a259a6156d8d09e642aa7"
     end
   end
 
