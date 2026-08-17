@@ -12,22 +12,22 @@ class Zornux < Formula
   on_macos do
     on_arm do
       url "https://github.com/zornux/zornux-dist/releases/download/v#{version}/zornux-#{version}-osx-arm64.tar.gz"
-      sha256 "ab5fec06f1d5305b0a3b15162ef4690517fdb4bffd0120bbd88021ad86ca3438"
+      sha256 "6937dc4ba9ba405732a0b2a2e2737c9cacc5f1093a4f4ae34816e8eaf28fa5f3"
     end
     on_intel do
       url "https://github.com/zornux/zornux-dist/releases/download/v#{version}/zornux-#{version}-osx-x64.tar.gz"
-      sha256 "6e6028f96c954d391dee53dc96790ce71dee479d6e4d1cf072f8f1c87286699a"
+      sha256 "dbda6aef0c9ed6ab6d27a9a0cad821d1e847b301288127299b0b4ab31ee07f8e"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/zornux/zornux-dist/releases/download/v#{version}/zornux-#{version}-linux-arm64.tar.gz"
-      sha256 "58a443e22f49633acce47c8c4c35886de8bb72e8ae2a11277f3144bab5777acb"
+      sha256 "a3fca183a06275229b54c3a9db996b5b61971dde3b264390af2b33d6432d1799"
     end
     on_intel do
       url "https://github.com/zornux/zornux-dist/releases/download/v#{version}/zornux-#{version}-linux-x64.tar.gz"
-      sha256 "11172b39fef8876d9776f269f118a43079e24ca9ac04633d50ef72ddf1c9ce8a"
+      sha256 "52e48cb24a3eb563b35c8cb530199727455d63dbb3c1567cdf87c96ba7acf4f5"
     end
   end
 
